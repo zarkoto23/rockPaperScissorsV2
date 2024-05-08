@@ -21,7 +21,7 @@
 
 .playerChoices button:hover{
   background-color: rgb(132, 78, 186);
-  font-size:560%;
+  font-size:500%;
   transition: 0.4s;
   
 }
