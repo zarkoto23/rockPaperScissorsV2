@@ -62,3 +62,10 @@ body{
   }
 }
 
+@media screen and (max-width: 600px) {
+  .playerChoices button {
+    width: 8rem; /* Пример за промяна на широчината за по-малки екрани */
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+}
