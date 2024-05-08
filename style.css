@@ -7,11 +7,11 @@
 
 
 .playerChoices button{
-  margin: 1.5rem;
+  margin: 2rem;
   font-size: 3rem;
   display: flexbox;
-  width: 5rem;
-  height: 5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   border-radius: 35%;
   background-color: rgb(154, 121, 187);
   cursor: pointer;
@@ -61,4 +61,5 @@ body{
     margin: 1rem;
   }
 }
+
 
