@@ -6,7 +6,7 @@
 
 .playerChoices button{
   margin: 1.5rem;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   display: flexbox;
   width: 4rem;
   height: 4rem;
@@ -20,7 +20,7 @@
 
 .playerChoices button:hover{
   background-color: rgb(132, 78, 186);
-  font-size:560%;
+  font-size:500%;
   transition: 0.4s;
 
 }
@@ -57,5 +57,6 @@ body{
     width: 4rem;
     height: 4rem;
     font-size: 1.5rem;
+    margin: 1.5rem;
   }
 }
