@@ -54,7 +54,7 @@ body{
 
 @media screen and (max-width: 600px) {
   .playerChoices button {
-    width: 8rem;
+    width: 4rem;
     height: 4rem;
     font-size: 1.5rem;
   }
