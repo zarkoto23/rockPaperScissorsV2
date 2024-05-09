@@ -3,8 +3,7 @@
   justify-content: center;
 }
 
-
-.playerChoices button{
+.playerChoices button {
   margin: 1.5rem;
   font-size: 2.5rem;
   display: flexbox;
@@ -14,42 +13,54 @@
   background-color: rgb(154, 121, 187);
   cursor: pointer;
   margin-top: 50px;
-  margin-bottom:50px ;
-
+  margin-bottom: 50px;
 }
 
-.playerChoices button:hover{
+.playerChoices button:hover {
   background-color: rgb(132, 78, 186);
-  font-size:500%;
+  font-size: 500%;
   transition: 0.4s;
-
 }
-#winner{
+#winner {
   font-size: 4rem;
 }
 
-
-
-.gamePlay{
+.gamePlay {
   font-size: larger;
-
 }
 
-h1{
+h1 {
   text-align: center;
   margin-top: 10%;
   font-size: 2.5rem;
 }
 
-body{
+body {
   font-family: "Jersey 15", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
 
   background-color: rgb(202, 200, 200);
+}
 
+.greenTxt,
+#playerPoints {
+  color: green;
+}
 
+.redTxt,
+#computerPoints {
+  color: red;
+}
+
+.scoreCount {
+  margin-top: 100px;
+}
+.scorePlayer,
+.scoreComputer,
+.tieScore {
+  font-size: 1.6rem;
 }
 
 @media screen and (max-width: 600px) {
