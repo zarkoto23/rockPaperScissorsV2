@@ -3,8 +3,9 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
 }
 
 .playerChoices button {
@@ -31,6 +32,9 @@
 
 .gamePlay {
   font-size: larger;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -40,12 +44,11 @@ h1 {
 }
 
 body {
-  font-family: "Jersey 15", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-
-  background-color: rgb(202, 200, 200);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  
+    background-color: rgb(202, 200, 200);
 }
 
 .greenTxt,
@@ -65,6 +68,9 @@ body {
 .scoreComputer,
 .tieScore {
   font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -75,3 +81,4 @@ body {
     margin: 1.5rem;
   }
 }
+
