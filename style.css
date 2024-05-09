@@ -35,6 +35,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 80px;
+}
+#winner{
+  margin-top: 80px;
 }
 
 h1 {
@@ -113,4 +117,18 @@ body {
   }
   
 }
+
+.playerChoices button {
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  display: flexbox;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 35%;
+  background-color: rgb(154, 121, 187);
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 
